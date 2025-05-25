@@ -11,7 +11,7 @@ The project uses the **Fruit and Vegetable Image Recognition** dataset from Hugg
 - Testing images: ~600 (20%)
 - Image format: RGB (converted from various source formats)
 
-![Class Distribution](Fruit-and-vegetable-image-recognition/class_distribution_explorer.png)
+![Class Distribution](class_distribution_explorer.png)
 
 ### Data Preparation Pipeline
 
@@ -101,10 +101,10 @@ These metrics indicate exceptional model performance, with over 91% mean average
 ## Visualizations
 
 ### Confusion Matrix
-![Confusion Matrix](Fruit-and-vegetable-image-recognition\models\confusion_matrix.png)
+![Confusion Matrix](models\confusion_matrix.png)
 
 ### Sample Predictions
-![Sample Predictions](Fruit-and-vegetable-image-recognition\models\sample_predictions.png)
+![Sample Predictions](models\sample_predictions.png)
 
 ## Per-Class Performance
 
