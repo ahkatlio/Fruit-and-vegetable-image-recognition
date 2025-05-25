@@ -101,10 +101,10 @@ These metrics indicate exceptional model performance, with over 91% mean average
 ## Visualizations
 
 ### Confusion Matrix
-![Confusion Matrix](models\confusion_matrix.png)
+![Confusion Matrix](models/confusion_matrix.png)
 
 ### Sample Predictions
-![Sample Predictions](models\sample_predictions.png)
+![Sample Predictions](models/sample_predictions.png)
 
 ## Per-Class Performance
 
