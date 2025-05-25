@@ -1,0 +1,199 @@
+{
+    "name": "Fruit and Vegetable Detector",
+    "version": "1.0",
+    "date_trained": "2025-04-24",
+    "framework": "YOLOv8",
+    "model_size": "large",
+    "input_size": 640,
+    "num_classes": 36,
+    "classes": [
+        "apple",
+        "banana",
+        "beetroot",
+        "bell pepper",
+        "cabbage",
+        "capsicum",
+        "carrot",
+        "cauliflower",
+        "chilli pepper",
+        "corn",
+        "cucumber",
+        "eggplant",
+        "garlic",
+        "ginger",
+        "grapes",
+        "jalepeno",
+        "kiwi",
+        "lemon",
+        "lettuce",
+        "mango",
+        "onion",
+        "orange",
+        "paprika",
+        "pear",
+        "peas",
+        "pineapple",
+        "pomegranate",
+        "potato",
+        "raddish",
+        "soy beans",
+        "spinach",
+        "sweetcorn",
+        "sweetpotato",
+        "tomato",
+        "turnip",
+        "watermelon"
+    ],
+    "metrics": {
+        "mAP50-95": 0.9168243055467098,
+        "mAP50": 0.9179131972405702,
+        "mean_precision": 0.8939818441976308,
+        "mean_recall": 0.8595596244423457,
+        "class_metrics": {
+            "apple": {
+                "precision": 0.9838592842449961,
+                "recall": 1.0
+            },
+            "banana": {
+                "precision": 0.9227314914254651,
+                "recall": 0.95
+            },
+            "beetroot": {
+                "precision": 0.9257292876603974,
+                "recall": 0.8321820236128216
+            },
+            "bell pepper": {
+                "precision": 0.6811537296659047,
+                "recall": 0.4
+            },
+            "cabbage": {
+                "precision": 0.94631725060624,
+                "recall": 0.9800277615185589
+            },
+            "capsicum": {
+                "precision": 0.6315565354539121,
+                "recall": 0.6470588235294118
+            },
+            "carrot": {
+                "precision": 1.0,
+                "recall": 0.998375152585206
+            },
+            "cauliflower": {
+                "precision": 0.985341267998717,
+                "recall": 1.0
+            },
+            "chilli pepper": {
+                "precision": 0.8381598854397208,
+                "recall": 0.7368421052631579
+            },
+            "corn": {
+                "precision": 0.6743956718300833,
+                "recall": 0.5924072997292739
+            },
+            "cucumber": {
+                "precision": 0.8963677792626508,
+                "recall": 0.96
+            },
+            "eggplant": {
+                "precision": 0.932415028997031,
+                "recall": 0.8571428571428571
+            },
+            "garlic": {
+                "precision": 0.9287348893432921,
+                "recall": 1.0
+            },
+            "ginger": {
+                "precision": 0.9125478869481153,
+                "recall": 0.8666666666666667
+            },
+            "grapes": {
+                "precision": 0.9852130640745548,
+                "recall": 1.0
+            },
+            "jalepeno": {
+                "precision": 0.9070475896205716,
+                "recall": 0.8
+            },
+            "kiwi": {
+                "precision": 0.9763624179863107,
+                "recall": 1.0
+            },
+            "lemon": {
+                "precision": 0.9422317722014258,
+                "recall": 0.9068290163131292
+            },
+            "lettuce": {
+                "precision": 0.7851186575247567,
+                "recall": 0.95
+            },
+            "mango": {
+                "precision": 0.8942750789146399,
+                "recall": 0.9400576941335236
+            },
+            "onion": {
+                "precision": 0.912806902855365,
+                "recall": 0.8421052631578947
+            },
+            "orange": {
+                "precision": 1.0,
+                "recall": 0.7002135675132655
+            },
+            "paprika": {
+                "precision": 0.8318422698935538,
+                "recall": 0.7857142857142857
+            },
+            "pear": {
+                "precision": 1.0,
+                "recall": 0.9005117349755611
+            },
+            "peas": {
+                "precision": 0.983265021897599,
+                "recall": 0.8333333333333334
+            },
+            "pineapple": {
+                "precision": 0.9824444300976559,
+                "recall": 0.9473684210526315
+            },
+            "pomegranate": {
+                "precision": 0.8170339853482199,
+                "recall": 1.0
+            },
+            "potato": {
+                "precision": 0.9084851666301735,
+                "recall": 0.8235294117647058
+            },
+            "raddish": {
+                "precision": 0.8732988532553327,
+                "recall": 0.7222222222222222
+            },
+            "soy beans": {
+                "precision": 0.9414031451353673,
+                "recall": 0.8421052631578947
+            },
+            "spinach": {
+                "precision": 0.9548107254058408,
+                "recall": 0.8128548867444382
+            },
+            "sweetcorn": {
+                "precision": 0.49426802945113657,
+                "recall": 0.6363636363636364
+            },
+            "sweetpotato": {
+                "precision": 0.8514406583160283,
+                "recall": 0.8831615312891219
+            },
+            "tomato": {
+                "precision": 1.0,
+                "recall": 0.9845735221408477
+            },
+            "turnip": {
+                "precision": 0.896145697513457,
+                "recall": 0.8125
+            },
+            "watermelon": {
+                "precision": 0.98654293611619,
+                "recall": 1.0
+            }
+        }
+    }
+}

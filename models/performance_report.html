@@ -1,0 +1,35 @@
+
+    <!DOCTYPE html>
+    <html>
+    <head>
+        <title>Fruit and Vegetable Detector - Performance Report</title>
+        <style>
+            body { font-family: Arial, sans-serif; margin: 20px; }
+            h1, h2 { color: #2C3E50; }
+            .metric { margin: 10px; padding: 15px; background-color: #f8f9fa; border-radius: 5px; }
+            img { max-width: 100%; border: 1px solid #ddd; border-radius: 5px; margin: 10px 0; }
+        </style>
+    </head>
+    <body>
+        <h1>Fruit and Vegetable Detector - Performance Report</h1>
+        <div class="metric">
+            <h2>Model Information</h2>
+            <p><strong>Date:</strong> 2025-04-24</p>
+            <p><strong>Framework:</strong> YOLOv8</p>
+            <p><strong>Classes:</strong> 36</p>
+        </div>
+        <div class="metric">
+            <h2>Performance Metrics</h2>
+            <p><strong>mAP50-95:</strong> 0.9168</p>
+            <p><strong>mAP50:</strong> 0.9179</p>
+            <p><strong>Mean Precision:</strong> 0.8940</p>
+            <p><strong>Mean Recall:</strong> 0.8596</p>
+        </div>
+        <h2>Visualizations</h2>
+        <h3>Confusion Matrix</h3>
+        <img src="confusion_matrix.png" alt="Confusion Matrix">
+        <h3>Sample Predictions</h3>
+        <img src="sample_predictions.png" alt="Sample Predictions">
+    <h2>Per-Class Metrics</h2><table border='1' cellpadding='5'><tr><th>Class</th><th>Precision</th><th>Recall</th></tr><tr><td>apple</td><td>0.9839</td><td>1.0000</td></tr><tr><td>banana</td><td>0.9227</td><td>0.9500</td></tr><tr><td>beetroot</td><td>0.9257</td><td>0.8322</td></tr><tr><td>bell pepper</td><td>0.6812</td><td>0.4000</td></tr><tr><td>cabbage</td><td>0.9463</td><td>0.9800</td></tr><tr><td>capsicum</td><td>0.6316</td><td>0.6471</td></tr><tr><td>carrot</td><td>1.0000</td><td>0.9984</td></tr><tr><td>cauliflower</td><td>0.9853</td><td>1.0000</td></tr><tr><td>chilli pepper</td><td>0.8382</td><td>0.7368</td></tr><tr><td>corn</td><td>0.6744</td><td>0.5924</td></tr><tr><td>cucumber</td><td>0.8964</td><td>0.9600</td></tr><tr><td>eggplant</td><td>0.9324</td><td>0.8571</td></tr><tr><td>garlic</td><td>0.9287</td><td>1.0000</td></tr><tr><td>ginger</td><td>0.9125</td><td>0.8667</td></tr><tr><td>grapes</td><td>0.9852</td><td>1.0000</td></tr><tr><td>jalepeno</td><td>0.9070</td><td>0.8000</td></tr><tr><td>kiwi</td><td>0.9764</td><td>1.0000</td></tr><tr><td>lemon</td><td>0.9422</td><td>0.9068</td></tr><tr><td>lettuce</td><td>0.7851</td><td>0.9500</td></tr><tr><td>mango</td><td>0.8943</td><td>0.9401</td></tr><tr><td>onion</td><td>0.9128</td><td>0.8421</td></tr><tr><td>orange</td><td>1.0000</td><td>0.7002</td></tr><tr><td>paprika</td><td>0.8318</td><td>0.7857</td></tr><tr><td>pear</td><td>1.0000</td><td>0.9005</td></tr><tr><td>peas</td><td>0.9833</td><td>0.8333</td></tr><tr><td>pineapple</td><td>0.9824</td><td>0.9474</td></tr><tr><td>pomegranate</td><td>0.8170</td><td>1.0000</td></tr><tr><td>potato</td><td>0.9085</td><td>0.8235</td></tr><tr><td>raddish</td><td>0.8733</td><td>0.7222</td></tr><tr><td>soy beans</td><td>0.9414</td><td>0.8421</td></tr><tr><td>spinach</td><td>0.9548</td><td>0.8129</td></tr><tr><td>sweetcorn</td><td>0.4943</td><td>0.6364</td></tr><tr><td>sweetpotato</td><td>0.8514</td><td>0.8832</td></tr><tr><td>tomato</td><td>1.0000</td><td>0.9846</td></tr><tr><td>turnip</td><td>0.8961</td><td>0.8125</td></tr><tr><td>watermelon</td><td>0.9865</td><td>1.0000</td></tr></table></body>
+    </html>
+    
